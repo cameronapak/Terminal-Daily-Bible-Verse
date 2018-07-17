@@ -30,16 +30,16 @@ $ sudo pip install requests
  8. Enter whatever email subject you want. I prefer `Verse of the Day - {{OccurredAt}}` <- OccuredAt will print the date.
  9. Paste this code into the body (or personalize this HTML to fit your needs).
  ```
- <div>
-<div style="font-family: ProximaNova, 'Montserrat', OpenSans; color: #b2b2b3; font-size: 24px; font-weight: 600;">Here's the Verse of the Day:</div>
-<br>
-<div id="verse" style="font-size: 30px; font-weight: bold; font-family: ProximaNova, 'Montserrat', OpenSans; color: #404041; line-height: 1.1;">{{Value1}}</div>
-<div style="font-style: italic; font-family: ProximaNova, 'Montserrat', OpenSans; color: #b2b2b3; font-size: 18px;">{{Value2}}</div>
-<br>
-<br>
-<div style="font-family: ProximaNova, 'Montserrat', OpenSans; color: #b2b2b3; font-size: 24px; font-weight: 600;">Here is my journaling for the day:</div>
-<br>
-<div id="journaling" style="font-family: ProximaNova, 'Montserrat', OpenSans; color: #404041; white-space: pre-wrap; font-size: 18px;">{{Value3}}</div>
+<div>
+  <div style="font-family: ProximaNova, 'Montserrat', OpenSans; color: #b2b2b3; font-size: 24px; font-weight: 600;">Here's the Verse of the Day:</div>
+  <br>
+  <div id="verse" style="font-size: 30px; font-weight: bold; font-family: ProximaNova, 'Montserrat', OpenSans; color: #404041; line-height: 1.1;">{{Value1}}</div>
+  <div style="font-style: italic; font-family: ProximaNova, 'Montserrat', OpenSans; color: #b2b2b3; font-size: 18px;">{{Value2}}</div>
+  <br>
+  <br>
+  <div style="font-family: ProximaNova, 'Montserrat', OpenSans; color: #b2b2b3; font-size: 24px; font-weight: 600;">Here is my journaling for the day:</div>
+  <br>
+  <div id="journaling" style="font-family: ProximaNova, 'Montserrat', OpenSans; color: #404041; white-space: pre-wrap; font-size: 18px;">{{Value3}}</div>
 </div>
  ``` 
  11. Save the applet.
