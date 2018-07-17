@@ -68,7 +68,7 @@ if thoughts == "y":
     #     report["value1"] = my_verse
     #     report["value2"] = my_verse_ref
     #     report["value3"] = my_journaling
-    #     requests.post("https://maker.ifttt.com/trigger/verse_of_day/with/key/dd4_iTJuEQFOniJgqngjA9", data=report)
+    #     requests.post("https://maker.ifttt.com/trigger/NAME_OF_EVENT/with/key/ID_OF_THE_KEY", data=report)
 
     # notification(verse, verse_ref, journaling)
     
