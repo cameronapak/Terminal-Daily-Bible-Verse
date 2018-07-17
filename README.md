@@ -1,5 +1,7 @@
-# Daily Verse Journal
-MAC
+![Daily Verse Journal Image](/daily-verse-journal.png)
+
+# Daily Bible Verse Journal
+Created for Mac.
 
 This application scrapes the daily verse from [Verse of the Day](https://www.verseoftheday.com/) and displays it in the command line. Then the user is prompted to "Ponder, Picture, and Personalize" the verse to let it soak in and *allow the Holy Spirit to speak to them.* Then the user can journal on their experience, whether a revelation, prayer, thoughts, etc. 
 
