@@ -55,3 +55,15 @@ notification(verse, verse_ref, journaling)
 ```
 14. Insert your `(NAME_OF_EVENT)` and `(ID_OF_THE_KEY)` in `requests.post` method.
 15. Save `main.py` and run again!
+
+## **How to run every time the terminal is opened**
+This is great for the person who wants to make God the center of their world. He does not have to be separated from our jobs, because He is intertwined throughout it all.
+1. `$ cd ~`
+2. `$ sudo nano ~/.bash_profile`
+3. Add these lines of code to the end of the file. Fill in path to daily-verse-journal.
+```
+$ alias VERSE="cd [path to daily-verse-journal] python main.py; cd ~/"
+VERSE
+```
+4. Save the file and then run `$ source ~/.bash_profile`.
+5. Close terminal and test program. It should work every time you open the terminal. 
