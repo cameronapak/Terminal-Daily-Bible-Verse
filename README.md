@@ -8,9 +8,11 @@ Each time the user journals, it logs the verse, verse reference, journal notes, 
 ## **How To**
  1. Clone or download this repo.
  2. `cd` to the folder and install in order the following dependencies.
-`$ sudo easy_install pip`
-`$ sudo pip install BeautifulSoup4`
-`$ sudo pip install requests`
+```
+$ sudo easy_install pip
+$ sudo pip install BeautifulSoup4
+$ sudo pip install requests
+```
  3. Run the program in the package folder 
 `$ python main.py`
 
