@@ -5,7 +5,7 @@ This application scrapes the daily verse from [Verse of the Day](https://www.ver
 
 Each time the user journals, it logs the verse, verse reference, journal notes, and date to a `.csv` file that can be viewed with Microsoft Excel for future reference. I use Webhook to connect to the users IFTTT account can send an email to the user each day.
 
-**How To**
+##**How To**
  1. Clone or download this repo.
  2. `cd` to the folder and install in order the following dependencies.
 `$ sudo easy_install pip`
@@ -14,7 +14,7 @@ Each time the user journals, it logs the verse, verse reference, journal notes, 
  3. Run the program in the package folder 
 `$ python main.py`
 
-**I want to send each journal to my inbox**
+##**I want to send each journal to my inbox**
 [Here](https://anthscomputercave.com/tutorials/ifttt/using_ifttt_web_request_email.html) is a great tutorial on how to do it, and below is my implementation with Gmail.
  1. Log into IFTTT.com
  2. Click My Applets and create a New Applet
