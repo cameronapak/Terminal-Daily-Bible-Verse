@@ -1,1 +1,2 @@
-# daily-verse-journal
+# Daily Verse Journal
+This application scrapes the daily verse from [Verse of the Day](https://www.verseoftheday.com/) and displays it in the command line. Then the user is prompted to "Ponder, Picture, and Personalize" the verse to let it soak in and allow the Holy Spirit to speak to them. Then the user can journal on their experience, whether a revelation, prayer, thoughts, etc. A webhook that connects to the users IFTTT account can send an email to the user each day.
