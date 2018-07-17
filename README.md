@@ -64,7 +64,7 @@ This is great for the person who wants to make God the center of their world. He
 2. `$ sudo nano ~/.bash_profile`
 3. Add these lines of code to the end of the file. Fill in path to daily-verse-journal.
 ```
-$ alias VERSE="cd [path to daily-verse-journal] python main.py; cd ~/"
+$ alias VERSE="cd [path to daily-verse-journal]; python main.py; cd ~/"
 VERSE
 ```
 4. Save the file and then run `$ source ~/.bash_profile`.
