@@ -71,4 +71,7 @@ if thoughts == "y":
     #     requests.post("https://maker.ifttt.com/trigger/verse_of_day/with/key/dd4_iTJuEQFOniJgqngjA9", data=report)
 
     # notification(verse, verse_ref, journaling)
+    
+else: 
+    print "\nNow, love God and love others!\n"
         
