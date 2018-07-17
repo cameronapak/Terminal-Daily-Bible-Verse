@@ -56,7 +56,7 @@ $ sudo pip install requests
 notification(verse, verse_ref, journaling)
 ```
 14. Insert your `(NAME_OF_EVENT)` and `(ID_OF_THE_KEY)` in `requests.post` method.
-15. Save `main.py` and run again!
+15. Save `main.py` and run `$ python main.py`
 
 ## **How to run every time the terminal is opened**
 This is great for the person who wants to make God the center of their world. He does not have to be separated from our jobs, because He is intertwined throughout it all.
@@ -69,3 +69,6 @@ VERSE
 ```
 4. Save the file and then run `$ source ~/.bash_profile`.
 5. Close terminal and test program. It should work every time you open the terminal. 
+6. Any time you are in the terminal and want to run the program, you can type `VERSE` and press enter.
+
+## **Love God; Love Others.**
