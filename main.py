@@ -35,7 +35,8 @@ verse_ref = verse[x+1:]
 verse = verse[:x]
 
 # display verse
-print "\n" + verse + "\n"
+print "\nVERSE OF THE DAY"
+print "\n" + verse
 print "- " + verse_ref
 
 # allow the user to think on the verse
@@ -60,7 +61,7 @@ if thoughts == "y":
     with open('journal.csv', 'a') as csv_file:
         writer = csv.writer(csv_file)
         writer.writerow([verse, verse_ref, journaling, date.today()])
-        print "\n\nSaved. Now love God and love others!\n"
+        print "\n\nSaved. Now, love God and love others!\n"
 
     # use IFTTT webhook to upload verse, verse_ref, and journaling
     # def notification(my_verse, my_verse_ref, my_journaling):
@@ -71,6 +72,7 @@ if thoughts == "y":
     #     requests.post("https://maker.ifttt.com/trigger/NAME_OF_EVENT/with/key/ID_OF_THE_KEY", data=report)
 
     # notification(verse, verse_ref, journaling)
+    # print "\nSent to your inbox. Now, love God and love others!\n"
     
 else: 
     print "\nNow, love God and love others!\n"
