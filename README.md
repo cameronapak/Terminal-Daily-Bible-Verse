@@ -8,12 +8,12 @@ This application scrapes the daily verse from [Verse of the Day](https://www.ver
 Each time the user journals, it logs the verse, verse reference, journal notes, and date to a `.csv` file that can be viewed with Microsoft Excel for future reference. I use Webhook to connect to the users IFTTT account can send an email to the user each day.
 
 ## **How To**
+I am using Python 2.7.15 to run this project.
  1. Clone or download this repo.
  2. `cd` to the folder and install in order the following dependencies.
 ```
-$ sudo easy_install pip
-$ sudo pip install BeautifulSoup4
-$ sudo pip install requests
+$ pip install BeautifulSoup4
+$ pip install requests
 ```
  3. Run the program in the package folder 
 `$ python main.py`
@@ -60,9 +60,8 @@ notification(verse, verse_ref, journaling)
 
 ## **How to run every time the terminal is opened**
 This is great for the person who wants to make God the center of their world. He does not have to be separated from our jobs, because He is intertwined throughout it all.
-1. `$ cd ~`
-2. `$ sudo nano ~/.bash_profile`
-3. Add these lines of code to the end of the file. Fill in path to daily-verse-journal.
+1. `$ sudo nano ~/.bash_profile`
+2. Add these lines of code to the end of the file. Fill in path to daily-verse-journal.
 ```
 $ alias VERSE="cd [path to daily-verse-journal]; python main.py; cd ~/"
 VERSE
